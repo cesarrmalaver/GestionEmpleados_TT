@@ -18,7 +18,8 @@ def gestion_jefes():
         opc = input('Digite la opción deseada: ')
 
         if opc == '1':
-            asignar_jefe()
+            #asignar_jefe()
+            pass
         elif opc == '2':
             # eliminar_jefe()
             pass
@@ -29,7 +30,7 @@ def gestion_jefes():
             # for empleado in Empleados:
             #     print(empleado)
             pass
-        elif opc == '5':
+        elif opc == '6':
             print("Saliendo...")
             break
         else:
